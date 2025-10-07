@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Office Guest Wi-Fi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --primary-color: #0078D7;
+      --background-color: #f4f6f8;
+      --card-color: #ffffff;
+      --text-color: #333;
+      --accent-color: #e0e0e0;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--background-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: var(--card-color);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      color: var(--primary-color);
+      margin-bottom: 20px;
+    }
+
+    .info {
+      font-size: 1.1em;
+      color: var(--text-color);
+      margin: 10px 0;
+    }
+
+    .password {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: var(--primary-color);
+      margin: 20px 0;
+    }
+
+    .note {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 30px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🛜 Office Guest Wi-Fi</h1>
+    <div class="info"><strong>Network ID:</strong> TCRSPOT</div>
+    <div class="info"><strong>Encryption:</strong> WPA2</div>
+    <div class="password">October2025!</div>
+    <div class="note">Password updates on the 1st of each month</div>
+  </div>
+</body>
+</html>
